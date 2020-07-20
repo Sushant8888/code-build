@@ -13,7 +13,7 @@ RUN apt-get update \
 RUN ln -s /usr/bin/python3 /usr/local/bin/python && \
     ln -s /usr/bin/pip3 /usr/local/bin/pip
 
-RUN pip install -r requirements.txt
+RUN pip install -r requirement.txt
 
 EXPOSE 5000
 
