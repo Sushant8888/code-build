@@ -19,7 +19,7 @@ phases:
       - echo Build completed on `date`
       - echo Pushing the Docker images...
       - docker push $REPOSITORY_URI:$IMAGE_TAG
-  clone_repository:
+  build:
     commands:
       - git clone https://github.com/Sushant8888/code-build.git
       - cd code-build
