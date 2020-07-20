@@ -18,7 +18,7 @@ dag = DAG(
 
 start = DummyOperator(task_id='run_this_first', dag=dag)
 
-image = "232383674343.dkr.ecr.us-east-1.amazonaws.com/sushant:COMMIT_SHA"
+image = "232383674343.dkr.ecr.REGION.amazonaws.com/sushant:COMMIT_SHA"
 
 tolerations = [
     {
